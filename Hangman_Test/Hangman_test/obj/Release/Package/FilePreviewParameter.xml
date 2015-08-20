@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Hangmantest" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^c:\\users\\thomas\\documents\\visual\ studio\ 2015\\Projects\\Hangman_test\\Hangman_test\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^c:\\users\\thomas\\documents\\visual\ studio\ 2015\\Projects\\Hangman_test\\Hangman_test\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:ovyctnajhf.database.windows.net,1433;Initial Catalog=Hangmantest_db;User Id=thomas@ovyctnajhf;Password=Gimpi1996!;" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\thomas\\documents\\visual\ studio\ 2015\\Projects\\Hangman_test\\Hangman_test\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
