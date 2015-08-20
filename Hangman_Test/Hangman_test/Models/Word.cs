@@ -16,5 +16,6 @@ namespace Hangman_test.Models
     public class HangmanDBContext : DbContext
     {
         public DbSet<Word> Words { get; set; }
+        public DbSet<Word> Temp { get; set; }
     }
 }
